@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import ColumnBoxes from './Components/ColumnBoxes';
+import DisplayImages from './Components/DisplayImages';
+import FullWidthBanner from './Components/FullWidthBanner';
+import HeroBanner from './Components/HeroBanner';
+import InputForm from './Components/InputForm';
+import ProductsSection from './Components/ProductsSection';
+// import TaskTracker from './Components/TaskTracker';
+import TopBanner from './Components/TopBanner';
 
 function App() {
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <TopBanner /> */}
+      <HeroBanner />
+      <FullWidthBanner />
+      <ProductsSection />
+      <ColumnBoxes />
+      <DisplayImages />
+      {/* <TaskTracker /> */}
+      <InputForm />
     </div>
   );
 }

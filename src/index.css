@@ -10,4 +10,25 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+};
+
+.HeroContainer{
+  height:500px;
+  width: 100%;
 }
+.HeroContainer .Heroheading{
+  position: absolute;
+  top: 0; 
+}
+.HeroContainer .Heroheading h2{
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  
+}
+.HeroContainer .Heroheading .para-1{
+  text-align: center;
+  margin-left: 30vh;
+  margin-right: 20vh;
+  color: white;
+};
